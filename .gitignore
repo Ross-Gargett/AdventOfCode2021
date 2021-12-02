@@ -9,8 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.log
-*.log.*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -21,7 +19,7 @@ mono_crash.*
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[R]elease/
+[Rr]elease/
 [Rr]eleases/
 x64/
 x86/
@@ -31,6 +29,7 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
+[Oo]ut/
 [Ll]og/
 [Ll]ogs/
 
@@ -63,7 +62,6 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-**/Properties/launchSettings.json
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -363,42 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-
-*.orig
-
-**/Media*Gallery/Logos/Default/
-Ncontracts.Ntranet.ADSyncService/Data/ADSyncDatabase.db
-
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
-
-# Generated files
-.idea/**/contentModel.xml
-
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
-
-# File-based project format
-*.iws
-
-# Editor-based Rest Client
-.idea/httpRequests
-AdventOfCode2021/.vs/AdventOfCode2021/v17/.suo
-AdventOfCode2021/.vs/AdventOfCode2021/v17/.suo
 *.cache
 *.cache
-AdventOfCode2021/obj/project.assets.json
-AdventOfCode2021/.vs/AdventOfCode2021/v17/.suo
