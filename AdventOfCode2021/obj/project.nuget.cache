@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lDWnxFguICSRTAsTKqW+wIQAP4wNdIPq5KA3p/+xt+oIrF90KcwFCm1dnpxLJhoEWpJd6A2azCFNn6j2C6DF9A==",
+  "dgSpecHash": "yfxgEwLE+F+iCmiinb03Q8E+RmWjmzvN/E0zqFTZ88fXqBqsB3zQz4amd1d0NDDP6Xq4zAF97TglHm1eOq/SyQ==",
   "success": true,
   "projectFilePath": "C:\\code\\AdventOfCode2021\\AdventOfCode2021\\AdventOfCode2021.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\RossGargett\\.nuget\\packages\\spectre.console\\0.43.0\\spectre.console.0.43.0.nupkg.sha512"
+  ],
   "logs": []
 }
