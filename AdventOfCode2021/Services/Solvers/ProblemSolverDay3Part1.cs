@@ -31,7 +31,7 @@ internal class ProblemSolverDay3Part1 : IProblemSolver
         {
             var onesInPosition = _input.Count(x => x[i] == '1');
 
-            var gammaBit = onesInPosition >= _input.Count / 2
+            var gammaBit = onesInPosition >= _input.Count / (double)2
                 ? 1
                 : 0;
 
